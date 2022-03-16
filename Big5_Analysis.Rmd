@@ -1,0 +1,56 @@
+---
+title: "*Big 5* Analysis with `worldfootballR`"
+author: "Alejandro Cepeda"
+date: "3/--/2022"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+## Project Description
+
+The main purpose of this project is to search for interesting insights from the data provided by the package `worldfootballR`, as well as to hopefully serve as a growing experience in terms of sports analytics and how data science helps improve the world's most popular sport.
+
+```{r setup, message=FALSE}
+# libraries
+#install.packages("worldfootballR")
+#install.packages("tidyverse")
+#devtools::install_github("JaseZiv/worldfootballR", ref = "main")
+library(worldfootballR)
+library(tidyverse)
+library(corrplot)
+```
+
+------------------------------------------------------------------------
+
+## Part 1: Data Loading & Preprocessing
+
+```{r "Part 1"}
+# loading transermarkt data per League
+big5.raw <- fb_big5_advanced_season_stats(stat_type = "standard",
+                                           season_end_year = 2021,
+                                           team_or_player = "team")
+#big5.clean <- 
+```
+
+------------------------------------------------------------------------
+
+## Second
+
+Lorem Ipsum
+
+```{r "Second"}
+
+```
+
+------------------------------------------------------------------------
+
+## Third
+
+Lorem Ipsum
+
+```{r "Third"}
+
+```
+
+------------------------------------------------------------------------
