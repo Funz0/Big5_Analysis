@@ -1,0 +1,51 @@
+---
+title: "World Football Analysis with `worldfoorballR`"
+author: "Alejandro Cepeda"
+date: "3/--/2022"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, message=FALSE}
+# libraries
+#install.packages("worldfootballR")
+#install.packages("tidyverse")
+library(worldfootballR)
+library(tidyverse)
+
+```
+
+------------------------------------------------------------------------
+
+## First
+
+Lorem Ipsum
+
+```{r "First"}
+# loading transermarkt data per League
+epl.url <- 
+
+```
+
+------------------------------------------------------------------------
+
+## Second
+
+Lorem Ipsum
+
+```{r "Second"}
+
+```
+
+------------------------------------------------------------------------
+
+## Third
+
+Lorem Ipsum
+
+```{r "Third"}
+
+```
+
+------------------------------------------------------------------------
