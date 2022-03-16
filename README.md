@@ -1,5 +1,5 @@
 # World Football Analysis Project
- Long term Machine Learning project to practice new methods with, mainly with the tidyverse for visualizations.
+The main purpose of this project is to search for interesting insights from the data provided by the package `worldfootballR`, as well as to hopefully serve as a growing experience in terms of sports analytics and how data science helps improve the world's most popular sport.
 
 ### Current Goals: 
 * EDA to determine usefull variables, trends, etc.
