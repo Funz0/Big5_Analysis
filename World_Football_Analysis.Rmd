@@ -25,7 +25,7 @@ Lorem Ipsum
 
 ```{r "First"}
 # loading transermarkt data per League
-epl.url <- 
+#epl.url <- 
 
 ```
 
