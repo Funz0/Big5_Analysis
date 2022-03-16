@@ -37,13 +37,14 @@ laLiga.teams <- fb_team_player_stats(team_urls=laLiga.URL, stat_type="standard")
 
 ------------------------------------------------------------------------
 
-## Part 2: Big Five Top Scoring Teams
+## Part 2: nonPenalty xG vs Goals
 
-The following plot will display the teams in the *Big Five* that were expected and scored at least 50 goals in the 2020/2021 Season.
+
 
 ```{r "Part 2", warning=FALSE}
 # plot goal vs xg performance
 #laLiga.teams %>%
+
 ```
 
 ------------------------------------------------------------------------
