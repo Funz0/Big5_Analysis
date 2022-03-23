@@ -32,28 +32,19 @@ library(ggrepel)
 # loading LaLiga 21/22 FBref data
 laLiga.URL <- fb_teams_urls("https://fbref.com/en/comps/12/La-Liga-Stats")
 laLiga.teams <- fb_team_player_stats(team_urls=laLiga.URL, stat_type="standard")
-
+head(laLiga.teams)
 ```
 
 ------------------------------------------------------------------------
 
-## Part 2: nonPenalty xG vs Goals
-
-
+## Part 2: Non-Penalty xG vs Goals
 
 ```{r "Part 2", warning=FALSE}
 # plot goal vs xg performance
-#laLiga.teams %>%
-
+laLiga.teams %>%
+  ggplot(aes(xG_Per_Minutes, Gls_Per_Minutes)) +
+  geom_point(size=2) 
 ```
-
-------------------------------------------------------------------------
-
-#### **The data show us that:**
-
--   Teams such as Bayern Munich, Manchester City, FC Barcelona, and Atalanta scored much higher than their xG.
--   Paris SG, among others scored as expected.
--   Teams like RB Leipzig, Liverpool, and Olympique Lyon under-performed based on their xG.
 
 ------------------------------------------------------------------------
 
